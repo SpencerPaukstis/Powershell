@@ -1,9 +1,3 @@
-# Alter registry to clear Update Cleanup
-#$SageSetKey = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\"
-#$CleanupItems = "Update Cleanup"
-##Set-Location -Path $SageSetKey
-#$CleanupItems | ForEach-Object { Set-ItemProperty -Path $_ -Name StateFlags0001 -Value 2 -ErrorAction SilentlyContinue }
-
 $SageSetKey = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\"
 $CleanupItems = "Update Cleanup"
 
