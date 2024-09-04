@@ -1,7 +1,7 @@
 # The name that will be displayed for the printer
-$printerName = "Mansion Downtown Printer (Basement)"
-# The static IP address for the printer - https://app.getguru.com/card/crR6yeri/How-to-Connect-to-Networked-Printers
-$printerIP = "192.168.5.35"
+$printerName = "DEVICE NAME"
+# The static IP address for the printer
+$printerIP = "LOCAL IP ADDRESS"
 # The Driver name - We've found this to be the best one, but may need updated in the future
 $driverName = "HP Universal Printing PCL 6"
 # Port name (No need to update this variable)
